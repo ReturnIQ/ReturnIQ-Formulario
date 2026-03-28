@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -13,6 +15,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "vite": "^6.4.1"
+    "vite": "^6.4.1",
+    "vitest": "^3.2.4"
   }
 }
